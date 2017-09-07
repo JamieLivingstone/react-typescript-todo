@@ -1,0 +1,51 @@
+.authentication {
+  h1 {
+    font-weight: 100;
+    font-size: 18px;
+    color: $grey;
+
+    .span {
+      display: inline;
+    }
+
+    .small {
+      margin: 0 10px;
+      font-size: 15px;
+    }
+
+    .current {
+      color: $white;
+      position: relative;
+
+      &:after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: -4px;
+        border-bottom: $white .7px solid;
+      }
+    }
+  }
+
+  input[type=submit] {
+    vertical-align: sub;
+  }
+
+  .grey-underline {
+    cursor: pointer;
+    position: relative;
+    color: $grey;
+
+    &:after {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: -4px;
+      border-bottom: $grey .7px solid;
+    }
+  }
+}

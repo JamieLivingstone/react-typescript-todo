@@ -1,0 +1,14 @@
+.container {
+  display: flex;
+  flex-shrink: 0;
+}
+
+.col {
+  flex: 1;
+}
+
+@media (max-width: 767px) {
+  .container {
+    display: block;
+  }
+}

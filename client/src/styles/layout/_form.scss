@@ -1,0 +1,25 @@
+.form {
+  width: 100%;
+  max-width: 625px;
+  margin: 0 auto;
+
+  input[type]:not([type=submit]) {
+    color: $grey;
+    width: 100%;
+    padding: 10px;
+    background: transparent;
+    border: 0;
+    border-bottom: 1px solid $grey;
+    outline: 0;
+    margin: 10px 0 30px 0px;
+
+    &:focus {
+      color: #FFFFFF;
+      border-bottom: 1px solid $white;
+    }
+
+    &:last-of-type {
+      margin-bottom: 0;
+    }
+  }
+}

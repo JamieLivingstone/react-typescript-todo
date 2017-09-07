@@ -1,0 +1,8 @@
+.idea
+yarn.lock
+
+client/node_modules
+client/yarn.lock
+
+api/node_modules
+api/yarn.lock

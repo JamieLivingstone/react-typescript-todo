@@ -1,0 +1,17 @@
+@import "variables";
+@import "mixins";
+@import "./animations/exports";
+@import "./layout/exports";
+@import "globals";
+@import "components/exports";
+
+
+// Authentication page
+.bg-blue {
+  background: $blue;
+  color: $white;
+}
+
+.bg-green {
+  background: $green;
+}

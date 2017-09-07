@@ -1,0 +1,35 @@
+.sidebar {
+  padding: 20px 0;
+  background: $blue;
+  color: $white;
+
+  @media (min-width: 768px) {
+    min-height: 100vh;
+  }
+
+  h2 {
+    padding: 0 10px;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 20px;
+  }
+
+  ul {
+    margin-bottom: 30px;
+
+    &:last-of-type {
+      margin-bottom: 0;
+    }
+
+    li {
+      border-top: 1px solid $grey;
+      padding: 15px 10px;
+      cursor: pointer;
+
+      &:hover, &.active {
+        transition: .2s ease;
+        background: $green;
+      }
+    }
+  }
+}
